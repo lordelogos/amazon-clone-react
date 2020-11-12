@@ -1,0 +1,145 @@
+.checkout {
+}
+
+@media screen and (max-width: 768px) {
+	.checkout {
+		margin-top: calc(68px - 2vh);
+	}
+}
+
+.checkout__info {
+	margin: 30px auto;
+	background-color: #fff;
+	height: 20vh;
+	width: 90%;
+	padding: 20px 0;
+	max-width: 400px;
+	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.checkout__signin {
+	width: 50%;
+	padding: 10px 10px;
+	background: linear-gradient(90deg, rgb(247, 188, 41), rgb(236, 196, 95));
+	border-color: #a88734 #9c7e31 #846a29;
+	border-radius: 2px;
+	border: solid 1px black;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.checkout__signup {
+	padding: 10px 10px;
+	width: 40%;
+	cursor: pointer;
+	border: none;
+	margin-top: 10px;
+}
+
+.checkout__desc {
+	color: rgb(133, 133, 133);
+	text-decoration: none;
+}
+
+.checkout__btn {
+	text-decoration: none;
+}
+
+.checkout__cta {
+	display: flex;
+	justify-content: space-between;
+}
+
+.checkout__space {
+	height: 10vh;
+	background-color: #fff;
+	width: 90%;
+	max-width: 400px;
+	margin: 0 auto 30px;
+}
+
+.checkout__disc {
+	width: 90%;
+	max-width: 400px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+.checkout__list {
+	width: 90%;
+	margin: 30px auto;
+	/* background-color: white; */
+	max-width: 1500px;
+}
+
+@media screen and (max-width: 768px) {
+	.checkout__list {
+		margin-top: calc(98px - 4vh);
+	}
+}
+
+.checkout__items {
+	margin: auto;
+	width: calc(95% - 40px);
+	padding: 30px 20px;
+	background-color: white;
+}
+
+.checkout__mainTitle {
+	border-bottom: solid 1px #ddd;
+}
+
+.checkout__mainTitle h1 {
+	font-weight: 500;
+	font-size: 23px;
+}
+
+.checkout__mainTitle p {
+	color: black;
+	text-align: right;
+}
+
+.checkout__space2 {
+	width: 95%;
+	height: 10vh;
+	background-color: white;
+	margin: 30px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 20px;
+}
+
+.checkout__checkout {
+	padding: 10px 10px;
+	background: linear-gradient(90deg, rgb(247, 188, 41), rgb(236, 196, 95));
+	border-color: #a88734 #9c7e31 #846a29;
+	border-radius: 2px;
+	border: solid 1px black;
+	cursor: pointer;
+}
+
+.checkout__total h1 {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: right;
+}
+
+.checkout__itemList {
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 400px) {
+	.checkout__space2 {
+		font-size: 16px;
+	}
+	.checkout__total h1 {
+		font-size: 16px;
+		font-weight: 400;
+		text-align: right;
+	}
+}
