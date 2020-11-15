@@ -1,0 +1,34 @@
+[debug] [2020-11-15T20:59:49.399Z] ----------------------------------------------------------------------
+[debug] [2020-11-15T20:59:49.406Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-11-15T20:59:49.407Z] CLI Version:   8.15.1
+[debug] [2020-11-15T20:59:49.407Z] Platform:      win32
+[debug] [2020-11-15T20:59:49.407Z] Node Version:  v12.18.3
+[debug] [2020-11-15T20:59:49.409Z] Time:          Sun Nov 15 2020 21:59:49 GMT+0100 (Central European Standard Time)
+[debug] [2020-11-15T20:59:49.410Z] ----------------------------------------------------------------------
+[debug] [2020-11-15T20:59:49.410Z] 
+[debug] [2020-11-15T20:59:49.434Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-15T20:59:49.436Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2020-11-15T20:59:50.533Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-clone-8db17.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub\u001b[22m"}}
+[info] +  functions: Using node@12 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@12 from host."}}
+[debug] [2020-11-15T20:59:51.672Z] defaultcredentials: writing to file C:\Users\user\AppData\Roaming\firebase\paulehiks_gmail_com_application_default_credentials.json
+[debug] [2020-11-15T20:59:51.683Z] Setting GAC to C:\Users\user\AppData\Roaming\firebase\paulehiks_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\user\\AppData\\Roaming\\firebase\\paulehiks_gmail_com_application_default_credentials.json"}}
+[debug] [2020-11-15T20:59:52.749Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/clone-8db17/webApps/-/config  
+ 
+[debug] [2020-11-15T20:59:53.944Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 20:59:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2020-11-15T20:59:55.203Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-11-15T20:59:55.204Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2020-11-15T20:59:55.204Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\user\\.cache\\firebase\\emulators\\ui-v1.2.2\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\user\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.2.2\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2020-11-15T20:59:55.710Z] Web / API server started at http://localhost:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4001\n"}}
+[info] i  functions: Watching "C:\Users\user\Desktop\FCC react\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\user\\Desktop\\FCC react\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2020-11-15T20:59:55.845Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2020-11-15T20:59:55.846Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2020-11-15T20:59:55.847Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2020-11-15T20:59:55.848Z] [worker-~diagnostic~-6cdfcfa1-08ab-4a62-a8aa-9b9399bccee5]: Assigning socketPath: \\?\pipe\C:\Users\user\Desktop\FCC react\amazon-clone\functions\6216 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-6cdfcfa1-08ab-4a62-a8aa-9b9399bccee5]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\user\\Desktop\\FCC react\\amazon-clone\\functions\\6216"}}
+[debug] [2020-11-15T20:59:55.849Z] [worker-~diagnostic~-6cdfcfa1-08ab-4a62-a8aa-9b9399bccee5]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-6cdfcfa1-08ab-4a62-a8aa-9b9399bccee5]: BUSY"}}

@@ -12,7 +12,6 @@ function Login() {
 
 	let login = (e) => {
 		e.preventDefault();
-		console.log("logged in");
 		auth
 			.signInWithEmailAndPassword(email, password)
 			.then((auth) => {
@@ -23,7 +22,6 @@ function Login() {
 
 	let register = (e) => {
 		e.preventDefault();
-		console.log("registered");
 		auth
 			.createUserWithEmailAndPassword(email, password)
 			.then((auth) => {

@@ -62,18 +62,6 @@ function Home() {
 				className="home__img"
 			/>
 			<div className="home__display">
-				{/* <div className="home__subcat">
-					<Product object={products[4]} key={products[4].id} />
-					<Product object={products[5]} key={products[5].id} />
-				</div>
-				<div className="home__subcat1">
-					<Product object={products[3]} key={products[3].id} />
-					<Product object={products[2]} key={products[2].id} />
-					<Product object={products[1]} key={products[1].id} />
-				</div>
-				<div className="home__subcat2">
-					<Product object={products[0]} key={products[0].id} />
-				</div> */}
 				<Product object={products[4]} key={products[4].id} area="a" />
 				<Product object={products[5]} key={products[5].id} area="b" />
 				<Product object={products[3]} key={products[3].id} area="c" />

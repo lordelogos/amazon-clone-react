@@ -12,10 +12,9 @@ function Product(props) {
 				rating,
 				price,
 				image,
-				id: new Date() + name,
+				id: Math.floor(Math.random * 123456789) + new Date(),
 			},
 		});
-		alert(name + " has been added to cart");
 	};
 	let { name, rating, price, image } = props.object;
 	return (

@@ -1,11 +1,12 @@
 import React from "react";
 import "./Checkout.css";
 import CheckProd from "./CheckProd";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 import { getCartTotal } from "./reducer";
 
 function Checkout() {
+	let history = useHistory();
 	let [{ basket, user }] = useStateValue();
 
 	return (
@@ -34,9 +35,11 @@ function Checkout() {
 							Subtotal ({basket.length} item): $
 							{getCartTotal(basket).toFixed(2)}
 						</p>
-						<Link to="/">
-							<button className="checkout__checkout">Continue shopping</button>
-						</Link>
+						<button
+							className="checkout__checkout"
+							onClick={(e) => history.push("/payment")}>
+							Proceed to Checkout
+						</button>
 					</div>
 				</div>
 			) : (

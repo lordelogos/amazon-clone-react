@@ -30,10 +30,12 @@ function Nav() {
 						</span>
 					</div>
 				</Link>
-				<div className="nav__act">
-					<span className="nav__actlineone">Returns</span>
-					<span className="nav__actlinetwo">& Orders</span>
-				</div>
+				<Link to={user ? "/orders" : "/login"} className="nav__links">
+					<div className="nav__act">
+						<span className="nav__actlineone">Returns</span>
+						<span className="nav__actlinetwo">& Orders</span>
+					</div>
+				</Link>
 				<Link to="/checkout" className="nav__links">
 					<div className="nav__basketact">
 						<Cart className="nav__icon basket_icon" />
